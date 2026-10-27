@@ -1,0 +1,12 @@
+metric	value
+threshold	0.9315091306951985
+precision_reported	0.2129500232914088
+recall_reported	0.2647691543935132
+f1_reported	0.2360491277247077
+num_predictions_TP_plus_FP	15027
+TP	3200
+FP	11827
+FN	8886
+precision_recomputed	0.2129500232914088
+recall_recomputed	0.2647691543935132
+f1_recomputed	0.2360491277247077

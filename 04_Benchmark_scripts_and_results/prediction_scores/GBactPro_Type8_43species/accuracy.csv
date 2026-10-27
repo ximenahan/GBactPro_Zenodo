@@ -1,0 +1,50 @@
+name,accuracy
+Thermotoga maritima MSB8,0.8659420289855072
+Anabaena sp. PCC7120,0.7477249747219413
+Synechococcus elongatus UTEX 2973,0.7664473684210527
+Synechocystis sp. PCC 6803,0.9302325581395349
+Nanosynbacter lyticus TM7x,0.6170212765957447
+Streptomyces coelicolor A3,0.8405511811023622
+Corynebacterium diphtheriae NCTC 13129,0.8156146179401993
+Corynebacterium glutamicum ATCC 13032,0.8026070763500931
+Mycolicibacterium smegmatis MC2 155,0.8127463863337714
+Mycobacterium tuberculosis H37Rv,0.8393258426966292
+Phytoplasma sp. OY-M,0.5952380952380952
+Mycoplasma pneumoniae M129,0.5583333333333333
+Clostridioides difficile 630,0.8214285714285714
+Lachnoclostridium phytofermentans ISDg,0.6077669902912621
+Paenibacillus riograndensis SBR5,0.8710691823899371
+Bacillus subtilis 168,0.8433333333333334
+Staphylococcus epidermidis ATCC 12228,0.9172185430463576
+Staphylococcus aureus MW2,0.91
+Listeria innocua,0.9057017543859649
+Listeria monocytogenes,0.8851851851851852
+Streptococcus pyrogenes S119,0.9853801169590644
+Streptococcus agalactiae NEM316,0.9617117117117117
+Leptospira interrogans L495,0.5726256983240223
+Bacteroides thetaiotaomicron VPI-5482,0.6868811881188119
+Chlamydia trachomatis L2b,0.7727272727272727
+Chlamydia pneumoniae CWL029,0.7736842105263158
+Campylobacter jejuni NCTC11168,0.863905325443787
+Helicobacter pylori 26695,0.8966480446927374
+Geobacter sulfurreducens PCA,0.684931506849315
+Zymomonas mobilis ZM4,0.5985037406483791
+Novosphingobium aromaticivorans DSM 12444,0.6800847457627118
+Rhodobacter sphaeroides 2.4.1,0.7941176470588235
+Caulobacter crescentus NA1000,0.6897506925207756
+Agrobacterium tumefaciens C58,0.6153846153846154
+Methylorubrum extorquens DM4,0.6476377952755905
+Bradyrhizobium japonicum USDA 110,0.6096136567834681
+Neisseria gonorrhoeae MS11,0.8434782608695652
+Bordetella pertussis Tohama I,0.7281879194630873
+Burkholderia cenocepacia J2315,0.9117647058823529
+Xanthomonas campestris B100,0.8113695090439277
+Acinetobacter baumannii ATCC 17978,0.8564814814814815
+Pseudomonas aeruginosa UCBPP-PA14,0.769811320754717
+Pseudomonas putida KT2440,0.506993006993007
+Shewanella oneidensis MR-1,0.8625277161862528
+Vibrio cholerae N16961,0.8208722741433022
+Klebsiella aerogenes KCTC 2190,0.8205128205128205
+Salmonella typhimurium SL1344,0.8017857142857143
+Shigella flexneri M90T,0.5292397660818714
+Escherichia coli MG1655,0.8019271948608137

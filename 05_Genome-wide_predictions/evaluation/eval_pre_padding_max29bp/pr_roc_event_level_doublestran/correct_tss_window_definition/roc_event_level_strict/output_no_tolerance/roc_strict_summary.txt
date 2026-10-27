@@ -1,0 +1,13 @@
+=== Strict event-level ROC (tolerance=0bp) ===
+Window: + [TSS-39,TSS-34]  - [TSS+6,TSS+11]
+FPR = (cumulative unmatched peaks in top-k) / (total unmatched peaks after full greedy run).
+TPR = (cumulative matched TSS in top-k) / (total reference TSS).
+
+total_peaks: 236898
+total_tss: 11834
+total_tp_peaks_full: 7714
+total_unmatched_peaks: 229184
+matched_tss_full: 7714
+
+AUROC: 0.559864
+Best Youden J: 0.294422  (T=0.843070, TPR=0.458678, FPR=0.164257)

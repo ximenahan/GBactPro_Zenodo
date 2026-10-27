@@ -1,0 +1,30 @@
+section,hyper_parameter,value
+general,model_family,CNN + BiLSTM
+general,input_encoding,"One-hot (A/T/C/G -> 4 channels)"
+general,input_tensor_shape,"(None, seq_len, 4)"
+general,padding,post
+general,masking,"Masking(mask_value=0.0)"
+architecture,conv_block_1,"Conv1D(32,k3,same,relu,stride1,L1L2)->BN->Conv1D(32,k5,same,relu,stride1,L1L2)->BN->MaxPool1D(2)->Dropout(0.5)"
+architecture,conv_block_2,"Conv1D(64,k3,same,relu,stride1,L1L2)->BN->Conv1D(64,k5,same,relu,stride1,L1L2)->BN->MaxPool1D(2)->Dropout(0.5)"
+architecture,recurrent_layer,"Bidirectional LSTM(units=1024, activation=relu, return_sequences=False)"
+architecture,dense_hidden,Dense(1024,relu)
+architecture,output_layer,Dense(1,sigmoid)
+training,loss,binary_crossentropy
+training,optimizer,Adam
+training,learning_rate,0.001
+training,metric,binary_accuracy
+training,epochs_default,5
+training,batch_size_default,32
+training,validation_split_default,0.20
+training,early_stopping_default,"enabled (ENABLE_EARLY_STOPPING=1)"
+training,early_stopping_patience_default,1
+data,data_split_source,"train: .../output/75-25/train ; test: .../output/75-25/test"
+data,negative_types,"random; shuffle-mix"
+type_maxlen,type1_35s10,31
+type_maxlen,type2_up35s10_original,81
+type_maxlen,type3_up35s10_new,51
+type_maxlen,type4_total50,50
+type_maxlen,type5_up35_40,100
+type_maxlen,type6_40bp_upstream,40
+type_maxlen,type7_minus60_plus21,81
+type_maxlen,type8_35s10_leftpad40,40

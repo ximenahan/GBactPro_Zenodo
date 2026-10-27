@@ -1,0 +1,5 @@
+AUROC: 0.976151
+Reference TSS: 668
+Total windows: 9279294
+Tolerance: 0 bp
+Matching: one-to-one (greedy, descending score)

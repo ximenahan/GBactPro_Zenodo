@@ -1,0 +1,4 @@
+metric	fraction	numerator	denominator	unit
+genome_bp_hns_union	0.17449217887028726	809587	4639675	bp_union_over_genome_bp
+tp_fn_hns_overlap_rate	0.18996112895048167	2248	11834	sites_overlapping_hns_over_total_sites
+tp_fp_hns_overlap_rate	0.23224861915219272	3490	15027	sites_overlapping_hns_over_total_sites

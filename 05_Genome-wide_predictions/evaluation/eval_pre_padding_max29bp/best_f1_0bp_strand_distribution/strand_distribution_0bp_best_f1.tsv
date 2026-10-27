@@ -1,0 +1,5 @@
+metric	dense_plus	dense_minus	dense_total
+TP windows (top-k)	1639	1541	3180
+FP windows (top-k)	6017	5830	11847
+TP refs (recall axis, max score ≥ thr)	1649	1551	3200
+FN refs (recall axis)	4274	4360	8634

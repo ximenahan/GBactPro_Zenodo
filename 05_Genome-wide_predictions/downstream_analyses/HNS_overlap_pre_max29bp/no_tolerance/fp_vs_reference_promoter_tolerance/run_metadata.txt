@@ -1,0 +1,9 @@
+pr_curve_tsv	/home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/output_no_tolerance/pr_curve_data.tsv
+predictions_tsv	/home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/output/doublestrand_intervals_all_pre_max29bp/NC_000913.tsv
+reference_csv	/home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactPro_new/data/tss_class_subsets/ecoli_all4classes_tss_filtered.csv
+match_tolerance_bp	0
+promoter_extra_tolerances_bp	10,25,50,75,100
+best_f1	0.2359554744797289
+threshold	0.9315091306951984
+k	15027
+n_fp	11858

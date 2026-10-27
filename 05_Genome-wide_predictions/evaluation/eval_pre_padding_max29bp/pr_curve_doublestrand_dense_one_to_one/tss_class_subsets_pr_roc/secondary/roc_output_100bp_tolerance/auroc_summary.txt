@@ -1,0 +1,9 @@
+AUROC: 0.997114
+Best Youden J: 0.978143
+  Threshold: 0.566096
+  TPR (sensitivity): 0.998112
+  FPR: 0.019969
+Reference TSS: 1589
+Total windows: 9279294
+Tolerance: 100 bp
+Matching: one-to-one (greedy, descending score)

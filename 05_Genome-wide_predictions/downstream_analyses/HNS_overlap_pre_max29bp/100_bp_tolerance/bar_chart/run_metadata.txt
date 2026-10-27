@@ -1,0 +1,5 @@
+pr_curve_tsv	/home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/output_100bp_tolerance/pr_curve_data.tsv
+match_tolerance_bp	100
+best_f1	0.3744852025668039
+threshold	0.918697752530062
+num_predictions_k	19489

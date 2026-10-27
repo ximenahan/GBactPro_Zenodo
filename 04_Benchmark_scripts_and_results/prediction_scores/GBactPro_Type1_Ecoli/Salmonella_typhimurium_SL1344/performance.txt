@@ -1,0 +1,5 @@
+Testing Accuracy: 0.9464285714285714
+AUROC: 0.9930994897959183
+Confusion Matrix:
+[[271   9]
+ [ 21 259]]

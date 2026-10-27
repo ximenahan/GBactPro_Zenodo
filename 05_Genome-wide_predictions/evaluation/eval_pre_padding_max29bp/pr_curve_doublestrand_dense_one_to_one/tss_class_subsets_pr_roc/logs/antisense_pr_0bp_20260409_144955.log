@@ -1,0 +1,37 @@
+======================================================================
+  PR CURVE — ONE-TO-ONE WINDOW / PROMOTER MATCHING
+======================================================================
+  Input TSV:    /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/output/doublestrand_intervals_all_pre_max29bp/NC_000913.tsv
+  Reference:    /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/tss_class_subsets_pr_roc/references_pos_strand/antisense_pos_strand.csv
+  Promoter def: [TSS-39, TSS-6]
+  Window len:   29 bp
+  Tolerance:    ±0 bp
+  Output:       /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/tss_class_subsets_pr_roc/antisense/pr_output_no_tolerance
+
+Loading predictions: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/output/doublestrand_intervals_all_pre_max29bp/NC_000913.tsv ...
+  Loaded 9,279,294 rows in 31.5s
+  + strand: 4,639,647  - strand: 4,639,647
+  Score range: [0.000000, 0.998769]
+Loading reference TSS: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/tss_class_subsets_pr_roc/references_pos_strand/antisense_pos_strand.csv ...
+  Total: 4763  (+ 2,400, - 2,363)
+
+  One-to-one matching (tolerance=0) ...
+    Geometrically matchable windows: 28,547 / 9,279,294
+  Greedy pass over 9,279,294 windows (desc score) ...
+    Greedy done in 19.7s; final matches: 4,763
+    179 unique thresholds [0.000000 .. 0.998769]
+  Total PR (1:1) generation: 122.7s
+  AUPRC: 0.059754
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/tss_class_subsets_pr_roc/antisense/pr_output_no_tolerance/pr_curve.png
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/tss_class_subsets_pr_roc/antisense/pr_output_no_tolerance/pr_curve_highres.png
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/tss_class_subsets_pr_roc/antisense/pr_output_no_tolerance/pr_curve_data.tsv
+
+======================================================================
+  SUMMARY
+======================================================================
+  AUPRC:         0.059754
+  Best F1:       0.131  (T=0.941118, P=0.092, R=0.229)
+  Reference TSS: 4,763
+  Total windows: 9,279,294
+  Elapsed:       160.0s (2.7 min)
+  Output:        /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/tss_class_subsets_pr_roc/antisense/pr_output_no_tolerance

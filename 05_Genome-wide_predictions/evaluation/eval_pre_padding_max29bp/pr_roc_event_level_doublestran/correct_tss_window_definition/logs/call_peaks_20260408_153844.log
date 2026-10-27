@@ -1,0 +1,20 @@
+======================================================================
+  PEAK CALLING (window → event)
+======================================================================
+  Input:    /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/output/doublestrand_intervals_all_pre_max29bp/NC_000913.tsv
+  Output:   /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_roc_event_level_doublestran/correct_tss_window_definition/peaks/NC_000913_peaks.tsv
+  Distance: 29 bp
+
+Loading windows ...
+  Loaded 9,279,294 rows in 8.0s
+  [+] 4,639,647 windows, calling peaks (distance=29) ...
+  [+] 118,450 peaks found
+  [-] 4,639,647 windows, calling peaks (distance=29) ...
+  [-] 118,448 peaks found
+
+  Total peaks: 236,898
+    + strand: 118,450
+    - strand: 118,448
+  Score range: [0.000000, 0.998769]
+  Elapsed: 12.2s
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_roc_event_level_doublestran/correct_tss_window_definition/peaks/NC_000913_peaks.tsv

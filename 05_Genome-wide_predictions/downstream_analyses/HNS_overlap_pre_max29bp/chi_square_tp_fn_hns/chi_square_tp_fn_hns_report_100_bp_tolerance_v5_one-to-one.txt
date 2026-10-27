@@ -1,0 +1,12 @@
+Chi-square: FN vs TP / H-NS (2×2) — 100 bp tolerance v5 one-to-one
+PR curve folder (v5 one-to-one): 04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense_one_to_one/output_100bp_tolerance
+Summary TSV: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/05_HNS_exe/100_bp_tolerance/bar_chart/hns_overlap_summary.tsv
+============================================================
+
+                    Overlap H-NS    Not overlap
+    FN                  1039               4930
+    non-FN (TP)         1208               4657
+
+Chi-square: 19.5722, df: 1, p-value: 9.69e-06
+Proportion FN overlapping H-NS: 17.41%
+Proportion TP overlapping H-NS: 20.60%

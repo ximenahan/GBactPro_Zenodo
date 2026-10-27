@@ -1,0 +1,2 @@
+threshold	f1_score	precision	recall	pr_curve_row_index	k_topk_score_ge_threshold	n_one_to_one_greedy_matched	tolerance_bp
+0.918697752530062	0.3744852025668039	0.3009389912258197	0.4956058813587967	25	19489	5865	100

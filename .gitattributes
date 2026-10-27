@@ -1,0 +1,2 @@
+variables.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+05_Genome-wide_predictions/predictions/NC_000913.2_type1_pre_max29bp_random_allwindows.tsv filter=lfs diff=lfs merge=lfs -text

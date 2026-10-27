@@ -1,0 +1,17 @@
+DEREPRESSED TSS OVERLAP — v5 double-strand windows @ best F1 (one-to-one PR)
+========================================================================
+
+Condition: v5_o2o_union_ref_no_tolerance (±0 bp)
+Threshold: 0.931509  F1: 0.2360
+Windows ≥ threshold: 15,027
+Derepressed TSS:     371
+Pred hit rate: 1.95%
+TSS recovery:  63.34%
+
+Condition: v5_o2o_union_ref_100bp_tolerance (±100 bp)
+Threshold: 0.918698  F1: 0.3766
+Windows ≥ threshold: 19,489
+Derepressed TSS:     371
+Pred hit rate: 4.07%
+TSS recovery:  90.30%
+

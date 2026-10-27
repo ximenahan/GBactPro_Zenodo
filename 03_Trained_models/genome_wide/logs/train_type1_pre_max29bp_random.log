@@ -1,0 +1,117 @@
+2026-04-08 08:35:45,007 - INFO - ============================================================
+2026-04-08 08:35:45,008 - INFO -   type1_35s10 — PRE PADDING, maxlen 29, raw len ≤29 only
+2026-04-08 08:35:45,008 - INFO - ============================================================
+2026-04-08 08:35:45,008 - INFO -   Max raw len: 29 bp (drop 30–31 bp examples)
+2026-04-08 08:35:45,008 - INFO -   Model input: 29 bp (zeros padded on the left; sequence right-aligned)
+2026-04-08 08:35:45,008 - INFO -   Raw 5'→3' occupies the right side of the window; shorter raw → more left pad
+2026-04-08 08:35:45,008 - INFO -   Negative:  random
+2026-04-08 08:35:45,008 - INFO -   Save to:   /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/03_model_training_v3_genome_use/scripts/models/lstm/genome_use_49/35+s+10_pre_max29bp/random
+2026-04-08 08:35:45,008 - INFO -   Pool:      43 species
+2026-04-08 08:35:45,008 - INFO -   Params:    epochs=5 batch=32 val_split=0.2
+2026-04-08 08:35:45,008 - INFO -   GPUs:      [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2026-04-08 08:35:45,008 - INFO -   Data dir:  /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/02_dataset_generation_v3_genome_use/output/train_all_1to10
+2026-04-08 08:35:45,330 - INFO -   Thermotoga maritima MSB8: pos 449/550 (skip 101)  neg 4490/5500 (skip 1010)
+2026-04-08 08:35:46,904 - INFO -   Anabaena sp. PCC7120: pos 3231/3955 (skip 724)  neg 32310/39550 (skip 7240)
+2026-04-08 08:35:47,804 - INFO -   Synechococcus elongatus UTEX 2973: pos 1984/2429 (skip 445)  neg 19840/24290 (skip 4450)
+2026-04-08 08:35:47,920 - INFO -   Synechocystis sp. PCC 6803: pos 132/170 (skip 38)  neg 1320/1700 (skip 380)
+2026-04-08 08:35:48,526 - INFO -   Streptomyces coelicolor A3: pos 799/1016 (skip 217)  neg 7990/10160 (skip 2170)
+2026-04-08 08:35:49,131 - INFO -   Corynebacterium diphtheriae NCTC 13129: pos 983/1202 (skip 219)  neg 9830/12020 (skip 2190)
+2026-04-08 08:35:50,029 - INFO -   Corynebacterium glutamicum ATCC 13032: pos 1747/2147 (skip 400)  neg 17470/21470 (skip 4000)
+2026-04-08 08:35:51,450 - INFO -   Mycolicibacterium smegmatis MC2 155: pos 2478/3043 (skip 565)  neg 24780/30430 (skip 5650)
+2026-04-08 08:35:52,191 - INFO -   Mycobacterium tuberculosis H37Rv: pos 1445/1778 (skip 333)  neg 14450/17780 (skip 3330)
+2026-04-08 08:35:52,854 - INFO -   Clostridioides difficile 630: pos 1144/1288 (skip 144)  neg 11440/12880 (skip 1440)
+2026-04-08 08:35:53,430 - INFO -   Paenibacillus riograndensis SBR5: pos 1024/1269 (skip 245)  neg 10240/12690 (skip 2450)
+2026-04-08 08:35:53,707 - INFO -   Bacillus subtilis 168: pos 512/600 (skip 88)  neg 5120/6000 (skip 880)
+2026-04-08 08:35:54,246 - INFO -   Staphylococcus epidermidis ATCC 12228: pos 1033/1206 (skip 173)  neg 10330/12060 (skip 1730)
+2026-04-08 08:35:54,998 - INFO -   Staphylococcus aureus MW2: pos 1534/1800 (skip 266)  neg 15340/18000 (skip 2660)
+2026-04-08 08:35:55,447 - INFO -   Listeria innocua: pos 776/911 (skip 135)  neg 7760/9110 (skip 1350)
+2026-04-08 08:35:55,945 - INFO -   Listeria monocytogenes: pos 936/1079 (skip 143)  neg 9360/10790 (skip 1430)
+2026-04-08 08:35:56,297 - INFO -   Streptococcus pyrogenes S119: pos 621/683 (skip 62)  neg 6210/6830 (skip 620)
+2026-04-08 08:35:56,749 - INFO -   Streptococcus agalactiae NEM316: pos 800/885 (skip 85)  neg 8000/8850 (skip 850)
+2026-04-08 08:35:58,156 - INFO -   Leptospira interrogans L495: pos 2510/2858 (skip 348)  neg 25100/28580 (skip 3480)
+2026-04-08 08:35:58,823 - INFO -   Bacteroides thetaiotaomicron VPI-5482: pos 1413/1616 (skip 203)  neg 14130/16160 (skip 2030)
+2026-04-08 08:35:58,981 - INFO -   Chlamydia trachomatis L2b: pos 291/349 (skip 58)  neg 2910/3490 (skip 580)
+2026-04-08 08:35:59,156 - INFO -   Chlamydia pneumoniae CWL029: pos 311/382 (skip 71)  neg 3110/3820 (skip 710)
+2026-04-08 08:35:59,471 - INFO -   Campylobacter jejuni NCTC11168: pos 569/675 (skip 106)  neg 5690/6750 (skip 1060)
+2026-04-08 08:35:59,784 - INFO -   Helicobacter pylori 26695: pos 593/716 (skip 123)  neg 5930/7160 (skip 1230)
+2026-04-08 08:36:00,228 - INFO -   Geobacter sulfurreducens PCA: pos 730/875 (skip 145)  neg 7300/8750 (skip 1450)
+2026-04-08 08:36:01,609 - INFO -   Zymomonas mobilis ZM4: pos 2806/3205 (skip 399)  neg 28060/32050 (skip 3990)
+2026-04-08 08:36:02,014 - INFO -   Novosphingobium aromaticivorans DSM 12444: pos 854/944 (skip 90)  neg 8540/9440 (skip 900)
+2026-04-08 08:36:02,552 - INFO -   Rhodobacter sphaeroides 2.4.1: pos 959/1087 (skip 128)  neg 9590/10870 (skip 1280)
+2026-04-08 08:36:03,225 - INFO -   Caulobacter crescentus NA1000: pos 1254/1443 (skip 189)  neg 12540/14430 (skip 1890)
+2026-04-08 08:36:03,467 - INFO -   Agrobacterium tumefaciens C58: pos 409/468 (skip 59)  neg 4090/4680 (skip 590)
+2026-04-08 08:36:04,266 - INFO -   Methylorubrum extorquens DM4: pos 1731/2030 (skip 299)  neg 17310/20300 (skip 2990)
+2026-04-08 08:36:06,432 - INFO -   Bradyrhizobium japonicum USDA 110: pos 3821/4451 (skip 630)  neg 38210/44510 (skip 6300)
+2026-04-08 08:36:06,843 - INFO -   Neisseria gonorrhoeae MS11: pos 775/919 (skip 144)  neg 7750/9190 (skip 1440)
+2026-04-08 08:36:07,065 - INFO -   Bordetella pertussis Tohama I: pos 500/593 (skip 93)  neg 5000/5930 (skip 930)
+2026-04-08 08:36:07,567 - INFO -   Burkholderia cenocepacia J2315: pos 896/1086 (skip 190)  neg 8960/10860 (skip 1900)
+2026-04-08 08:36:08,290 - INFO -   Xanthomonas campestris B100: pos 1273/1545 (skip 272)  neg 12730/15450 (skip 2720)
+2026-04-08 08:36:08,608 - INFO -   Acinetobacter baumannii ATCC 17978: pos 741/864 (skip 123)  neg 7410/8640 (skip 1230)
+2026-04-08 08:36:09,555 - INFO -   Pseudomonas aeruginosa UCBPP-PA14: pos 1794/2116 (skip 322)  neg 17940/21160 (skip 3220)
+2026-04-08 08:36:10,332 - INFO -   Shewanella oneidensis MR-1: pos 1575/1802 (skip 227)  neg 15750/18020 (skip 2270)
+2026-04-08 08:36:10,947 - INFO -   Vibrio cholerae N16961: pos 1126/1283 (skip 157)  neg 11260/12830 (skip 1570)
+2026-04-08 08:36:11,148 - INFO -   Klebsiella aerogenes KCTC 2190: pos 400/468 (skip 68)  neg 4000/4680 (skip 680)
+2026-04-08 08:36:11,684 - INFO -   Salmonella typhimurium SL1344: pos 971/1120 (skip 149)  neg 9710/11200 (skip 1490)
+2026-04-08 08:36:12,559 - INFO -   Escherichia coli MG1655: pos 1620/1865 (skip 245)  neg 16200/18650 (skip 2450)
+2026-04-08 08:36:12,560 - INFO - Pooled raw counts — positive: 60771  negative: 607710  skipped (>29bp): pos 9221 neg 92210
+2026-04-08 08:36:14,932 - INFO - Training data shape: (567050, 29, 4)
+2026-04-08 08:36:14,950 - INFO - Training labels shape: (567050,)
+2026-04-08 08:36:14,950 - INFO - Creating model...
+2026-04-08 08:36:17,006 - WARNING - Layer lstm will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2026-04-08 08:36:17,010 - WARNING - Layer lstm will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2026-04-08 08:36:17,020 - WARNING - Layer lstm will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2026-04-08 08:36:22,428 - INFO - Model: "model"
+2026-04-08 08:36:22,428 - INFO - _________________________________________________________________
+2026-04-08 08:36:22,429 - INFO -  Layer (type)                Output Shape              Param #   
+2026-04-08 08:36:22,429 - INFO - =================================================================
+2026-04-08 08:36:22,430 - INFO -  input (InputLayer)          [(None, 29, 4)]           0         
+2026-04-08 08:36:22,431 - INFO -                                                                  
+2026-04-08 08:36:22,431 - INFO -  masking (Masking)           (None, 29, 4)             0         
+2026-04-08 08:36:22,432 - INFO -                                                                  
+2026-04-08 08:36:22,436 - INFO -  conv1d (Conv1D)             (None, 29, 32)            416       
+2026-04-08 08:36:22,436 - INFO -                                                                  
+2026-04-08 08:36:22,437 - INFO -  batch_normalization (Batch  (None, 29, 32)            128       
+2026-04-08 08:36:22,437 - INFO -  Normalization)                                                  
+2026-04-08 08:36:22,438 - INFO -                                                                  
+2026-04-08 08:36:22,438 - INFO -  conv1d_1 (Conv1D)           (None, 29, 32)            5152      
+2026-04-08 08:36:22,439 - INFO -                                                                  
+2026-04-08 08:36:22,439 - INFO -  batch_normalization_1 (Bat  (None, 29, 32)            128       
+2026-04-08 08:36:22,440 - INFO -  chNormalization)                                                
+2026-04-08 08:36:22,440 - INFO -                                                                  
+2026-04-08 08:36:22,441 - INFO -  max_pooling1d (MaxPooling1  (None, 14, 32)            0         
+2026-04-08 08:36:22,441 - INFO -  D)                                                              
+2026-04-08 08:36:22,442 - INFO -                                                                  
+2026-04-08 08:36:22,442 - INFO -  dropout (Dropout)           (None, 14, 32)            0         
+2026-04-08 08:36:22,442 - INFO -                                                                  
+2026-04-08 08:36:22,443 - INFO -  conv1d_2 (Conv1D)           (None, 14, 64)            6208      
+2026-04-08 08:36:22,443 - INFO -                                                                  
+2026-04-08 08:36:22,444 - INFO -  batch_normalization_2 (Bat  (None, 14, 64)            256       
+2026-04-08 08:36:22,445 - INFO -  chNormalization)                                                
+2026-04-08 08:36:22,445 - INFO -                                                                  
+2026-04-08 08:36:22,445 - INFO -  conv1d_3 (Conv1D)           (None, 14, 64)            20544     
+2026-04-08 08:36:22,446 - INFO -                                                                  
+2026-04-08 08:36:22,446 - INFO -  batch_normalization_3 (Bat  (None, 14, 64)            256       
+2026-04-08 08:36:22,447 - INFO -  chNormalization)                                                
+2026-04-08 08:36:22,447 - INFO -                                                                  
+2026-04-08 08:36:22,448 - INFO -  max_pooling1d_1 (MaxPoolin  (None, 7, 64)             0         
+2026-04-08 08:36:22,448 - INFO -  g1D)                                                            
+2026-04-08 08:36:22,449 - INFO -                                                                  
+2026-04-08 08:36:22,449 - INFO -  dropout_1 (Dropout)         (None, 7, 64)             0         
+2026-04-08 08:36:22,450 - INFO -                                                                  
+2026-04-08 08:36:22,450 - INFO -  bidirectional (Bidirection  (None, 2048)              8921088   
+2026-04-08 08:36:22,451 - INFO -  al)                                                             
+2026-04-08 08:36:22,451 - INFO -                                                                  
+2026-04-08 08:36:22,452 - INFO -  dense (Dense)               (None, 1024)              2098176   
+2026-04-08 08:36:22,452 - INFO -                                                                  
+2026-04-08 08:36:22,453 - INFO -  dense_1 (Dense)             (None, 1)                 1025      
+2026-04-08 08:36:22,453 - INFO -                                                                  
+2026-04-08 08:36:22,453 - INFO - =================================================================
+2026-04-08 08:36:22,455 - INFO - Total params: 11053377 (42.17 MB)
+2026-04-08 08:36:22,462 - INFO - Trainable params: 11052993 (42.16 MB)
+2026-04-08 08:36:22,463 - INFO - Non-trainable params: 384 (1.50 KB)
+2026-04-08 08:36:22,463 - INFO - _________________________________________________________________
+2026-04-08 08:36:22,464 - INFO - Training model...
+2026-04-08 08:56:48,378 - INFO - Training completed in 20.43 minutes
+2026-04-08 08:56:48,379 - INFO - Saving model to: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/03_model_training_v3_genome_use/scripts/models/lstm/genome_use_49/35+s+10_pre_max29bp/random
+2026-04-08 08:56:57,822 - INFO - Assets written to: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/03_model_training_v3_genome_use/scripts/models/lstm/genome_use_49/35+s+10_pre_max29bp/random/assets
+2026-04-08 08:56:57,998 - INFO - Model saved successfully

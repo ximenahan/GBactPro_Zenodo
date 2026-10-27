@@ -1,0 +1,5 @@
+Observed dense hybrid PR / AUPRC (from ../pr_curve_data.tsv, recall-sorted trapezoid).
+
+AUPRC = 0.16350367298689125
+
+Source: same pipeline as generate_pr_curve_doublestrand.py (tolerance 0 bp).

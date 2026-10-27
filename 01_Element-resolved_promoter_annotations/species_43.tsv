@@ -1,0 +1,44 @@
+order	species	short_name	acronym	lineage	genome_accession	pmid	pas_n	train_n_positive	train_n_negative_random	test_n_positive	test_n_negative_random
+1	Thermotoga maritima MSB8	Thermotoga maritima	Th.ma	Thermotogota	CP004077.1	23637642	550	412	4120	138	1380
+2	Anabaena sp. PCC7120	Anabaena sp.	An.sp	Cyanobacteria	NC_003272.1	22135468	3955	2966	29660	989	9890
+3	Synechococcus elongatus UTEX 2973	Synechococcus elongatus	Sy.el	Cyanobacteria	CP006471.1	30127850	2429	1821	18210	608	6080
+4	Synechocystis sp. PCC 6803	Synechocystis sp.	Sy.sp	Cyanobacteria	NC_000911.1	21245330	170	127	1270	43	430
+5	Streptomyces coelicolor A3	Streptomyces coelicolor	St.co	Actinobacteriota	NC_003888.3	27251447	1016	762	7620	254	2540
+6	Corynebacterium diphtheriae NCTC 13129	Corynebacterium diphtheriae	Co.di	Actinobacteriota	NC_002935.2	29370758	1202	901	9010	301	3010
+7	Corynebacterium glutamicum ATCC 13032	Corynebacterium glutamicum	Co.gl	Actinobacteriota	BX927147.1	24341750	2147	1610	16100	537	5370
+8	Mycolicibacterium smegmatis MC2 155	Mycolicibacterium smegmatis	My.sm	Actinobacteriota	NC_008596.1	30984135	3043	2282	22820	761	7610
+9	Mycobacterium tuberculosis H37Rv	Mycobacterium tuberculosis	My.tu	Actinobacteriota	AL123456.3	24268774	1778	1333	13330	445	4450
+10	Clostridioides difficile 630	Clostridioides difficile	Cl.di	Firmicutes	NC_009089.1	32903654	1288	966	9660	322	3220
+11	Paenibacillus riograndensis SBR5	Paenibacillus riograndensis	Pa.ri	Firmicutes	NZ_LN831776.1	29100491	1269	951	9510	318	3180
+12	Bacillus subtilis 168	Bacillus subtilis	Ba.su	Firmicutes	NC_000964.3	20525796	600	450	4500	150	1500
+13	Staphylococcus epidermidis ATCC 12228	Staphylococcus epidermidis	St.ep	Firmicutes	NC_004461.1	27806702	1206	904	9040	302	3020
+14	Staphylococcus aureus MW2	Staphylococcus aureus	St.au	Firmicutes	NC_003923.1	27806702	1800	1350	13500	450	4500
+15	Listeria innocua	Listeria innocua	Li.in	Firmicutes	NC_003212.1	22617957	911	683	6830	228	2280
+16	Listeria monocytogenes	Listeria monocytogenes	Li.mo	Firmicutes	NC_003210.1	22617957	1079	809	8090	270	2700
+17	Streptococcus pyrogenes S119	Streptococcus pyogenes	St.py	Firmicutes	LR031521.1	30902048	683	512	5120	171	1710
+18	Streptococcus agalactiae NEM316	Streptococcus agalactiae	St.ag	Firmicutes	NC_004368.1	26024923	885	663	6630	222	2220
+19	Leptospira interrogans L495	Leptospira interrogans	Le.in	Spirochaetota	NZ_LT962963.1	28154810	2864	2144	21440	714	7140
+20	Bacteroides thetaiotaomicron VPI-5482	Bacteroides thetaiotaomicron	Ba.th	Bacteroidota	NC_004663.1	32678091	1616	1212	12120	404	4040
+21	Chlamydia trachomatis L2b	Chlamydia trachomatis	Ch.tr	Chlamydiota	NC_010280.1	19923228	349	261	2610	88	880
+22	Chlamydia pneumoniae CWL029	Chlamydia pneumoniae	Ch.pn	Chlamydiota	NC_000922.1	21989159	381	286	2860	96	960
+23	Campylobacter jejuni NCTC11168	Campylobacter jejuni	Ca.je	Campylobacterota	NC_002163.1	23696746	675	506	5060	169	1690
+24	Helicobacter pylori 26695	Helicobacter pylori	He.py	Campylobacterota	NC_000915.1	26091613	716	537	5370	179	1790
+25	Geobacter sulfurreducens PCA	Geobacter sulfurreducens	Ge.su	Desulfobacterota	NC_002939.5	27488344	875	656	6560	219	2190
+26	Zymomonas mobilis ZM4	Zymomonas mobilis	Zy.mo	Alphaproteobacteria	NZ_CP023715.1	32694125	3205	2403	24030	802	8020
+27	Novosphingobium aromaticivorans DSM 12444	Novosphingobium aromaticivorans	No.ar	Alphaproteobacteria	NC_007794.1	34254822	944	708	7080	236	2360
+28	Rhodobacter sphaeroides 2.4.1	Rhodobacter sphaeroides	Rh.sp	Alphaproteobacteria	NC_007493.2	34254822	1087	815	8150	272	2720
+29	Caulobacter crescentus NA1000	Caulobacter crescentus	Ca.cr	Alphaproteobacteria	NC_011916.1	25569173	1443	1082	10820	361	3610
+30	Agrobacterium tumefaciens C58	Agrobacterium tumefaciens	Ag.tu	Alphaproteobacteria	NC_003062.2	23950988	468	351	3510	117	1170
+31	Methylorubrum extorquens DM4	Methylorubrum extorquens	Me.ex	Alphaproteobacteria	NC_012988.1	35889020	2030	1522	15220	508	5080
+32	Bradyrhizobium japonicum USDA 110	Bradyrhizobium japonicum	Br.ja	Alphaproteobacteria	NC_004463.1	27107716	4451	3338	33380	1113	11130
+33	Neisseria gonorrhoeae MS11	Neisseria gonorrhoeae	Ne.go	Betaproteobacteria	NC_022240.1	25143534	909	689	6890	230	2300
+34	Bordetella pertussis Tohama I	Bordetella pertussis	Bo.pe	Betaproteobacteria	NC_002929.2	29683387	593	444	4440	149	1490
+35	Burkholderia cenocepacia J2315	Burkholderia cenocepacia	Bu.ce	Betaproteobacteria	AM747720.1	26462475	1086	814	8140	272	2720
+36	Xanthomonas campestris B100	Xanthomonas campestris	Xa.ca	Gammaproteobacteria	AM920689.1	26975844	1545	1158	11580	387	3870
+37	Acinetobacter baumannii ATCC 17978	Acinetobacter baumannii	Ac.ba	Gammaproteobacteria	CP000521.1	27806702	864	648	6480	216	2160
+38	Pseudomonas aeruginosa UCBPP-PA14	Pseudomonas aeruginosa	Ps.ae	Gammaproteobacteria	NC_008463.1	23028334	2117	1586	15860	530	5300
+39	Shewanella oneidensis MR-1	Shewanella oneidensis	Sh.on	Gammaproteobacteria	NC_004347.2	24987095	1802	1351	13510	451	4510
+40	Vibrio cholerae N16961	Vibrio cholerae	Vi.ch	Gammaproteobacteria	NC_002505.1	25646441	1283	962	9620	321	3210
+41	Klebsiella aerogenes KCTC 2190	Klebsiella aerogenes	Kl.ae	Gammaproteobacteria	NC_015663.1	27806702	468	351	3510	117	1170
+42	Salmonella typhimurium SL1344	Salmonella enterica Typhimurium	Sa.ty	Gammaproteobacteria	FQ312003.1	22538806	1120	840	8400	280	2800
+43	Escherichia coli MG1655	Escherichia coli	Es.co	Gammaproteobacteria	NC_000913.2	25266388	1865	1398	13980	467	4670

@@ -1,0 +1,7 @@
+# FP counts from hns_overlap_summary.tsv (category FP, count column).
+# Genome length: 4,639,675 bp (E. coli NC_000913.2; same as v5 scan / extended_hns_overlap_best_f1_o2o/hns_aggregate_overlap_summary.tsv).
+# fp_per_mb = fp_count * 1e6 / genome_bp. fp_per_1000kb equals fp_per_mb (1000 kb = 1,000,000 bp).
+# fp_per_genome = total false positives for one genome at best-F1 (same as fp_count).
+setting	source_summary_tsv	fp_count	genome_bp	fp_per_mb	fp_per_genome	fp_per_1000kb
+100_bp_tolerance	../100_bp_tolerance/bar_chart/hns_overlap_summary.tsv	13624	4639675	2936.412572	13624	2936.412572
+no_tolerance	../no_tolerance/bar_chart/hns_overlap_summary.tsv	11858	4639675	2555.782463	11858	2555.782463

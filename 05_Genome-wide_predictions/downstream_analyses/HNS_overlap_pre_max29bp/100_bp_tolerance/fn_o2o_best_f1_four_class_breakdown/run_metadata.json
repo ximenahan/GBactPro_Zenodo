@@ -1,0 +1,12 @@
+{
+  "fn_csv": "/home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/05_HNS_exe/100_bp_tolerance/o2o_best_f1_tp_fn_promoter_logos/promoter_architecture_scan/input/ecoli_fn_tss_subset.csv",
+  "total_fn": 5969,
+  "rows_flag_sum_not_1": 0,
+  "counts_by_class": {
+    "primary": 1188,
+    "secondary": 876,
+    "internal": 1862,
+    "antisense": 2043
+  },
+  "note": "Class from ecoli_all4classes flag columns on each FN row. Per-class subset CSVs in tss_class_subsets/ are not used here (they can differ slightly from union flags)."
+}

@@ -1,0 +1,2 @@
+tss_class	tolerance_bp	pr_curve_row_index_best_f1	threshold_at_best_f1	f1_at_best_f1	precision_pr_curve	recall_pr_curve	k_predictions_score_ge_threshold	tp_one_to_one_greedy	fp_one_to_one_greedy	fn_one_to_one_greedy	n_reference_tss	precision_recomputed	recall_recomputed
+primary	0	9	0.9699432651906076	0.1508838383838384	0.1304585152838428	0.1788922155688622	3664	478	3186	2194	2672	0.1304585152838428	0.17889221556886228

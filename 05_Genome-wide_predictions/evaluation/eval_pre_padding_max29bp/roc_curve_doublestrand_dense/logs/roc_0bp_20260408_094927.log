@@ -1,0 +1,47 @@
+======================================================================
+  STRAND-AWARE ROC CURVE (VECTORIZED, WINDOW-INTERVAL OVERLAP)
+======================================================================
+  Input TSV:    /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/output/doublestrand_intervals_all_pre_max29bp/NC_000913.tsv
+  Reference:    /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactPro_new/data/tss_class_subsets/ecoli_all4classes_tss_filtered.csv
+  Promoter def: [TSS-39, TSS-6] = 34 bp
+  Window len:   29 bp
+  Tolerance:    +-0 bp
+  Thresholds:   100
+  Output:       /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/roc_curve_doublestrand_dense/output_no_tolerance
+
+Loading predictions: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/output/doublestrand_intervals_all_pre_max29bp/NC_000913.tsv ...
+  Loaded 9,279,294 rows in 10.6s
+  + strand: 4,639,647  - strand: 4,639,647
+  Score range: [0.000000, 0.998769]
+Loading reference TSS: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactPro_new/data/tss_class_subsets/ecoli_all4classes_tss_filtered.csv ...
+  Total: 11834  (+ 5,923, - 5,911)
+
+  Building promoter regions (tolerance=0) ...
+  Computing is_tp for 4,639,647 (+) windows ...
+    TP windows (+): 35,304
+  Computing is_tp for 4,639,647 (-) windows ...
+    TP windows (-): 35,226
+  Total TP windows: 70,530 / 9,279,294
+  Total negative windows: 9,208,764
+  Computing max score per reference TSS (11,834 TSS) ...
+    TSS with >=1 matching window: 11,834
+  Precomputation done in 3.4s
+  Sweeping thresholds ...
+    179 unique thresholds [0.000000 .. 0.998769]
+    Sweep done in 33.7s
+  Total ROC generation: 37.1s
+  AUROC: 0.979866
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/roc_curve_doublestrand_dense/output_no_tolerance/roc_curve.png
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/roc_curve_doublestrand_dense/output_no_tolerance/roc_curve_highres.png
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/roc_curve_doublestrand_dense/output_no_tolerance/roc_curve_data.tsv
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/roc_curve_doublestrand_dense/output_no_tolerance/auroc_summary.txt
+
+======================================================================
+  SUMMARY
+======================================================================
+  AUROC:           0.979866
+  Best Youden J:   0.859  (T=0.126899, TPR=0.928, FPR=0.070)
+  Reference TSS:   11,834
+  Total windows:   9,279,294
+  Elapsed:         50.4s (0.8 min)
+  Output:          /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/roc_curve_doublestrand_dense/output_no_tolerance

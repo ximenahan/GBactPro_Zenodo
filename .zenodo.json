@@ -1,0 +1,17 @@
+{
+  "title": "GBactPro research reproducibility archive",
+  "description": "Datasets, trained models, 1:1 benchmark scores, and the E. coli NC_000913.2 genome-wide promoter predictions for the GBactPro study. Species names in file paths use underscores in place of spaces. See README.md for the eight sequence-window definitions, the model groups, and the files that are stored with Git LFS.",
+  "upload_type": "dataset",
+  "creators": [
+    {"name": "GBactPro authors"}
+  ],
+  "keywords": [
+    "GBactPro",
+    "bacterial promoter",
+    "promoter architecture",
+    "deep learning",
+    "CNN-BiLSTM"
+  ],
+  "license": "mit",
+  "communities": []
+}

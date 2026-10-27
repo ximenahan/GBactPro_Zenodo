@@ -1,0 +1,50 @@
+species	total_rows	train_rows	test_rows	train_fraction
+Acinetobacter baumannii ATCC 17978	864	648	216	0.75
+Agrobacterium tumefaciens C58	468	351	117	0.75
+Anabaena sp. PCC7120	3955	2966	989	0.7499
+Bacillus subtilis 168	600	450	150	0.75
+Bacteroides thetaiotaomicron VPI-5482	1616	1212	404	0.75
+Bordetella pertussis Tohama I	593	444	149	0.7487
+Bradyrhizobium japonicum USDA 110	4451	3338	1113	0.7499
+Burkholderia cenocepacia J2315	1086	814	272	0.7495
+Campylobacter jejuni NCTC11168	675	506	169	0.7496
+Caulobacter crescentus NA1000	1443	1082	361	0.7498
+Chlamydia pneumoniae CWL029	382	286	96	0.7487
+Chlamydia trachomatis L2b	349	261	88	0.7479
+Clostridioides difficile 630	1288	966	322	0.75
+Corynebacterium diphtheriae NCTC 13129	1202	901	301	0.7496
+Corynebacterium glutamicum ATCC 13032	2147	1610	537	0.7499
+Escherichia coli MG1655	1865	1398	467	0.7496
+Geobacter sulfurreducens PCA	875	656	219	0.7497
+Helicobacter pylori 26695	716	537	179	0.75
+Klebsiella aerogenes KCTC 2190	468	351	117	0.75
+Lachnoclostridium phytofermentans ISDg	2057	1542	515	0.7496
+Leptospira interrogans L495	2864	2148	716	0.75
+Listeria innocua	911	683	228	0.7497
+Listeria monocytogenes	1079	809	270	0.7498
+Methylorubrum extorquens DM4	2030	1522	508	0.7498
+Mycobacterium tuberculosis H37Rv	1778	1333	445	0.7497
+Mycolicibacterium smegmatis MC2 155	3043	2282	761	0.7499
+Mycoplasma pneumoniae M129	718	538	180	0.7493
+Nanosynbacter lyticus TM7x	188	141	47	0.75
+Neisseria gonorrhoeae MS11	919	689	230	0.7497
+Novosphingobium aromaticivorans DSM 12444	944	708	236	0.75
+Paenibacillus riograndensis SBR5	1269	951	318	0.7494
+Phytoplasma sp. OY-M	82	61	21	0.7439
+Pseudomonas aeruginosa UCBPP-PA14	2117	1587	530	0.7496
+Pseudomonas putida KT2440	1142	856	286	0.7496
+Rhodobacter sphaeroides 2.4.1	1087	815	272	0.7498
+Salmonella typhimurium SL1344	1120	840	280	0.75
+Shewanella oneidensis MR-1	1802	1351	451	0.7497
+Shigella flexneri M90T	2051	1538	513	0.7499
+Staphylococcus aureus MW2	1800	1350	450	0.75
+Staphylococcus epidermidis ATCC 12228	1206	904	302	0.7496
+Streptococcus agalactiae NEM316	885	663	222	0.7492
+Streptococcus pyrogenes S119	683	512	171	0.7496
+Streptomyces coelicolor A3	1016	762	254	0.75
+Synechococcus elongatus UTEX 2973	2429	1821	608	0.7497
+Synechocystis sp. PCC 6803	170	127	43	0.7471
+Thermotoga maritima MSB8	550	412	138	0.7491
+Vibrio cholerae N16961	1283	962	321	0.7498
+Xanthomonas campestris B100	1545	1158	387	0.7495
+Zymomonas mobilis ZM4	3205	2403	802	0.7498

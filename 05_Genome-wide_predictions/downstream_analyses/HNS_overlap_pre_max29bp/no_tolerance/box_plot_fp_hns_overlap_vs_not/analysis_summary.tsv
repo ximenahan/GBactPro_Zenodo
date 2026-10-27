@@ -1,0 +1,2 @@
+threshold	f1_score	num_predictions_k	fp_total	fp_overlap_hns_count	fp_non_overlap_count	ttest_t	ttest_p_two_sided	mannwhitney_u_two_sided	mannwhitney_p_two_sided	mannwhitney_u_greater	mannwhitney_p_overlap_greater	mean_overlap	mean_non_overlap	mean_diff_overlap_minus_non
+0.9315091306951984	0.2359554744797289	15027	11858	2894	8964	2.222561152335422	0.02626419712848138	13280001.0	0.053553134089325514	13280001.0	0.026776567044662757	0.9558192258797272	0.9550841487329063	0.0007350771468209727

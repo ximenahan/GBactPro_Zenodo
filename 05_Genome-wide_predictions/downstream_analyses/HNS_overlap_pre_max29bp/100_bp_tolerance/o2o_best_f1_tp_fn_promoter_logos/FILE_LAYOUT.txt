@@ -1,0 +1,30 @@
+o2o_best_f1_tp_fn_promoter_logos/
+  (v5 double-strand one-to-one PR, 100 bp tolerance, best-F1 k; same as bar_chart/)
+
+export_tp_fn_subsets.py
+  Partition ecoli_all4classes_tss_filtered.csv into matched (TP) vs unmatched (FN)
+  reference rows. Writes:
+    promoter_architecture_scan/input/ecoli_tp_tss_subset.csv
+    promoter_architecture_scan/input/ecoli_fn_tss_subset.csv
+    subset_manifest.json
+
+promoter_architecture_scan/
+  input/
+    NC_000913.2.gb          (symlink to GBactPro_Pipeline genome)
+    ecoli_tp_tss_subset.csv (written by export script)
+    ecoli_fn_tss_subset.csv (written by export script)
+  scripts/
+    BPM/                    (symlink -> v4 tss_class_subsets_pr_roc_dense_type1/.../BPM)
+    scan_tss_subset.py      (BPM scan; same schema as v4 scan_ecoli_tss_class.py)
+  output/
+    tp/Escherichia coli MG1655_tp.tsv
+    fn/Escherichia coli MG1655_fn.tsv
+  run_scan_all.sh
+
+sequence_logos/
+  scripts/generate_logos.py   (tp + fn; shared y-axis across both)
+  output/{tp,fn}/minus35_logo.png, minus10_logo.png, spacer_*bp_logo.png, spacer_assembled.png
+  run_logos.sh
+
+run_all.sh          (symlinks + export + scan + logos)
+PAS_logo_input_flow.md

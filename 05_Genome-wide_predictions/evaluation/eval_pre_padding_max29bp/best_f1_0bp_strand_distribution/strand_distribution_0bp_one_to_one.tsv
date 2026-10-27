@@ -1,0 +1,4 @@
+metric	one_to_one_plus	one_to_one_minus	total
+TP matched pairs (by ref strand)	1634	1535	3169
+FP preds (no match, by pred strand)	6022	5836	11858
+FN refs (unmatched, by ref strand)	4289	4376	8665

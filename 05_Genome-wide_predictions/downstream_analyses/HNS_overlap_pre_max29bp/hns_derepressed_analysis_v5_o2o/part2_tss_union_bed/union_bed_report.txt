@@ -1,0 +1,9 @@
+Part 2: Union BED — 11834 all4classes ∪ Table_S1 derepressed (371)
+========================================================================
+All4classes TSS:              11834
+Derepressed TSS:              371
+Overlap (in both):            119
+Union (unique TSS):           12086
+
+Output: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/05_HNS_exe/hns_derepressed_analysis_v5_o2o/part2_tss_union_bed/all4classes_11834_union_derepressed_371.bed
+Format: NC_000913.2, start (0-based), end (1-based), name, score, strand

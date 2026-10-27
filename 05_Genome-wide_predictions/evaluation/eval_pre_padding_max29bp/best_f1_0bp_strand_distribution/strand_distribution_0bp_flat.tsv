@@ -1,0 +1,2 @@
+dense_TP_windows_plus	dense_TP_windows_minus	dense_FP_windows_plus	dense_FP_windows_minus	dense_TP_refs_plus	dense_TP_refs_minus	dense_FN_refs_plus	dense_FN_refs_minus	o2o_TP_matched_refs_plus	o2o_TP_matched_refs_minus	o2o_FP_windows_plus	o2o_FP_windows_minus	o2o_FN_refs_plus	o2o_FN_refs_minus	threshold	k_top_predictions
+1639	1541	6017	5830	1649	1551	4274	4360	1634	1535	6022	5836	4289	4376	0.9315091306951984	15027

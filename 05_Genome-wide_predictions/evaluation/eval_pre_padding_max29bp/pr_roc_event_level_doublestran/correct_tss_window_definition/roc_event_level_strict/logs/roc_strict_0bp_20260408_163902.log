@@ -1,0 +1,23 @@
+======================================================================
+  EVENT-LEVEL ROC (STRICT — GREEDY MATCH ONLY)
+======================================================================
+  Peaks:     /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_roc_event_level_doublestran/correct_tss_window_definition/peaks/NC_000913_peaks.tsv
+  Reference: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactPro_new/data/tss_class_subsets/ecoli_all4classes_tss_filtered.csv
+  Window:    + [TSS-39,TSS-34]  - [TSS+6,TSS+11] (±0 bp)
+  Output:    /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_roc_event_level_doublestran/correct_tss_window_definition/roc_event_level_strict/output_no_tolerance
+
+Loading peaks: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_roc_event_level_doublestran/correct_tss_window_definition/peaks/NC_000913_peaks.tsv ...
+  236,898 peaks  (+ 118,450, - 118,448)
+Loading reference TSS: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactPro_new/data/tss_class_subsets/ecoli_all4classes_tss_filtered.csv ...
+  Total: 11834  (+ 5,923, - 5,911)
+
+  Greedy matching (236,898 peaks, 11,834 TSS) ...
+    Done in 1.0s
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_roc_event_level_doublestran/correct_tss_window_definition/roc_event_level_strict/output_no_tolerance/roc_curve_strict.png
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_roc_event_level_doublestran/correct_tss_window_definition/roc_event_level_strict/output_no_tolerance/roc_curve_strict_data.tsv
+  Saved: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_roc_event_level_doublestran/correct_tss_window_definition/roc_event_level_strict/output_no_tolerance/roc_strict_summary.txt
+
+======================================================================
+  AUROC: 0.559864  |  Best Youden: 0.294
+  Elapsed: 4.0s
+======================================================================

@@ -1,0 +1,16 @@
+=== Event-Level (narrow TSS window), tolerance=0bp ===
++ peak start in [TSS-39, TSS-34] ± tol
+- peak start in [TSS+6, TSS+11] ± tol
+Total peaks: 236898
+  Positive peaks: 7714
+  Negative peaks: 229184
+Reference TSS: 11834
+Matched TSS (all peaks): 7714
+
+--- PR Curve ---
+AUPRC: 0.142019
+Best F1: 0.234108  (T=0.931769, P=0.213525, R=0.259084)
+
+--- ROC Curve ---
+AUROC: 0.559864
+Best Youden J: 0.294422  (T=0.843070, TPR=0.458678, FPR=0.164257)

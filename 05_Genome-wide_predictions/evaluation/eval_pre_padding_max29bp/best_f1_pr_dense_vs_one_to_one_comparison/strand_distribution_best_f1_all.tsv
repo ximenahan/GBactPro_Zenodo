@@ -1,0 +1,29 @@
+method	tolerance_label	metric	strand	count
+dense	no_tolerance	TP windows (pred strand)	+	1639
+dense	no_tolerance	TP windows (pred strand)	-	1541
+dense	no_tolerance	FP windows (pred strand)	+	6017
+dense	no_tolerance	FP windows (pred strand)	-	5830
+dense	no_tolerance	TP refs (recall axis)	+	1649
+dense	no_tolerance	TP refs (recall axis)	-	1551
+dense	no_tolerance	FN refs (recall axis)	+	4274
+dense	no_tolerance	FN refs (recall axis)	-	4360
+dense	100bp_tolerance	TP windows (pred strand)	+	7046
+dense	100bp_tolerance	TP windows (pred strand)	-	7014
+dense	100bp_tolerance	FP windows (pred strand)	+	14471
+dense	100bp_tolerance	FP windows (pred strand)	-	14138
+dense	100bp_tolerance	TP refs (recall axis)	+	4785
+dense	100bp_tolerance	TP refs (recall axis)	-	4728
+dense	100bp_tolerance	FN refs (recall axis)	+	1138
+dense	100bp_tolerance	FN refs (recall axis)	-	1183
+one_to_one	no_tolerance	TP matched pairs (ref strand)	+	1634
+one_to_one	no_tolerance	TP matched pairs (ref strand)	-	1535
+one_to_one	no_tolerance	FP preds (pred strand)	+	6022
+one_to_one	no_tolerance	FP preds (pred strand)	-	5836
+one_to_one	no_tolerance	FN refs (ref strand)	+	4289
+one_to_one	no_tolerance	FN refs (ref strand)	-	4376
+one_to_one	100bp_tolerance	TP matched pairs (ref strand)	+	2922
+one_to_one	100bp_tolerance	TP matched pairs (ref strand)	-	2943
+one_to_one	100bp_tolerance	FP preds (pred strand)	+	6948
+one_to_one	100bp_tolerance	FP preds (pred strand)	-	6676
+one_to_one	100bp_tolerance	FN refs (ref strand)	+	3001
+one_to_one	100bp_tolerance	FN refs (ref strand)	-	2968

@@ -1,0 +1,5 @@
+method	tolerance_label	source_tsv	threshold	f1	precision	recall	n_predictions_top_k	TP_windows_in_top_k	FP_windows_in_top_k	TP_references_detected_recall_axis	FN_references_missed_recall_axis	TP_matched_pairs	FP_predictions_no_match	FN_references_unmatched
+dense	no_tolerance	pr_curve_doublestrand_dense/output_no_tolerance/pr_curve_data.tsv	0.9315091306951984	0.2374282710434104	0.2116190856458374	0.2704073009971269	15027	3180	11847	3200	8634			
+dense	100bp_tolerance	pr_curve_doublestrand_dense/output_100bp_tolerance/pr_curve_data.tsv	0.8578437062456643	0.4674249850082449	0.3295132297452483	0.8038702044955214	42669	14060	28609	9513	2321			
+one_to_one	no_tolerance	pr_curve_doublestrand_dense_one_to_one/output_no_tolerance/pr_curve_data.tsv	0.9315091306951984	0.2359554744797289	0.2108870699407732	0.2677877302687173	15027					3169	11858	8665
+one_to_one	100bp_tolerance	pr_curve_doublestrand_dense_one_to_one/output_100bp_tolerance/pr_curve_data.tsv	0.918697752530062	0.3744852025668039	0.3009389912258197	0.4956058813587967	19489					5865	13624	5969

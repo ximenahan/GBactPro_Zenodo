@@ -1,0 +1,14 @@
+=== Event-Level Evaluation (tolerance=0bp) ===
+Total peaks: 236898
+  Positive peaks: 11812
+  Negative peaks: 225086
+Reference TSS: 11834
+Matched TSS (all peaks): 10714
+
+--- PR Curve ---
+AUPRC: 0.187365
+Best F1: 0.257897  (T=0.924315, P=0.220047, R=0.311475)
+
+--- ROC Curve ---
+AUROC: 0.713517
+Best Youden J: 0.385485  (T=0.774756, TPR=0.638499, FPR=0.253014)

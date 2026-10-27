@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: GBactPro research reproducibility archive
+message: If you use these datasets, models, or predictions, cite the GBactPro study.
+type: dataset
+authors:
+  - name: GBactPro authors
+repository-code: https://github.com/ximenahan/GBactPro_Zenodo
+license: MIT
+keywords:
+  - GBactPro
+  - bacterial promoter
+  - promoter architecture

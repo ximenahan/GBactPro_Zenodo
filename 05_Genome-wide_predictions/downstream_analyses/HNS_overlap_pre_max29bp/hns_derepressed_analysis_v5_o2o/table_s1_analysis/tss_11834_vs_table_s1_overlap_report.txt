@@ -1,0 +1,13 @@
+TSS comparison: 11834 all4classes vs Table_S1 (668 σ70-paired)
+========================================================================
+All4classes TSS (ecoli_all4classes_tss_filtered): 11834
+Table_S1 (σ70-paired TSS):                        668
+
+Overlap (same position + strand, ignoring chromosome):
+  In both:                                         230
+  Table_S1 only (in Table_S1, not in 11834):       438
+  All4classes only (in 11834, not in Table_S1):     11604
+
+Fractions:
+  Of Table_S1 that are in all4classes set:  34.4%
+  Of all4classes set that are in Table_S1:  1.9%

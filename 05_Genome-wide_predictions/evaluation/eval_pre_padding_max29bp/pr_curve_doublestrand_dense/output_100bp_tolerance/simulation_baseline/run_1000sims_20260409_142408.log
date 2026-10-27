@@ -1,0 +1,22 @@
+Logging to /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense/output_100bp_tolerance/simulation_baseline/run_1000sims_20260409_142408.log
+Loading ...
+Loading predictions: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/../output/doublestrand_intervals_all_pre_max29bp/NC_000913.tsv ...
+  Loaded 9,279,294 rows in 12.4s
+  + strand: 4,639,647  - strand: 4,639,647
+  Score range: [0.000000, 0.998769]
+Loading reference TSS: /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactPro_new/data/tss_class_subsets/ecoli_all4classes_tss_filtered.csv ...
+  Total: 11834  (+ 5,923, - 5,911)
+  1/1000 sims  (14.0s)
+  100/1000 sims  (1081.4s)
+  200/1000 sims  (2333.1s)
+  300/1000 sims  (3459.2s)
+  400/1000 sims  (4767.5s)
+  500/1000 sims  (5810.8s)
+  600/1000 sims  (6869.7s)
+  700/1000 sims  (7873.9s)
+  800/1000 sims  (8943.5s)
+  900/1000 sims  (9940.4s)
+  1000/1000 sims  (10929.5s)
+Wrote /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense/output_100bp_tolerance/simulation_baseline/random_baseline_per_sim.tsv
+Wrote /home/brucehan/Project_02_promoter_prediction_model/ref_code/GBactpro_BH/04_genome_scanning_v5_all_data_pool/eval_pre_padding_max29bp/pr_curve_doublestrand_dense/output_100bp_tolerance/simulation_baseline/random_baseline_summary.tsv
+AUPRC mean=0.221905 CI [0.215004, 0.234782]

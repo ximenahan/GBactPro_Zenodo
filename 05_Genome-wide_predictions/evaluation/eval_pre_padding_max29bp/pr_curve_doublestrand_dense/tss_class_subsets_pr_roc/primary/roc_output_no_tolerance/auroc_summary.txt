@@ -1,0 +1,8 @@
+AUROC: 0.978333
+Best Youden J: 0.844922
+  Threshold: 0.097796
+  TPR (sensitivity): 0.925524
+  FPR: 0.080602
+Reference TSS: 2672
+Total windows: 9279294
+Tolerance: 0 bp

@@ -1,0 +1,13 @@
+Part 1: Overlap — 11834 all4classes E. coli TSS vs Table_S1_derepressed_TSS (371)
+========================================================================
+All4classes TSS (ecoli_all4classes_tss_filtered): 11834
+Table_S1 derepressed TSS:                         371
+
+Overlap (same position + strand, ignoring chromosome):
+  In both:                             119
+  All4classes only (not in derepressed):11715
+  Derepressed only (not in 11834):     252
+
+Fractions:
+  Of derepressed that are in all4classes: 32.1%
+  Of all4classes that are in derepressed: 1.0%
